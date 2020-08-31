@@ -7,3 +7,5 @@ def Services(request):
 	return render(request,'realsecurity/Services.html')
 def Contact(request):
 	return render(request,'realsecurity/Contact.html')
+def pawn_check(request):
+	return render(request,'realsecurity/pawn_check.html')
